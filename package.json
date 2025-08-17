@@ -1,0 +1,17 @@
+{
+  "name": "customer-rewards-program",
+  "version": "1.0.0",
+  "description": "Customer Rewards Program - Vanilla JavaScript Assignment",
+  "main": "index.html",
+  "type": "module",
+  "scripts": {
+    "test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest --coverage"
+  },
+  "keywords": [],
+  "author": "Naveen Kondari",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "cross-env": "^7.0.3"
+  }
+}

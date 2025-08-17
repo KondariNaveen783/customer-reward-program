@@ -1,0 +1,37 @@
+[
+  { "customerId": "C001", "customerName": "Alice Johnson", "transactionId": "T001", "amount": 120.50, "date": "2024-10-15" },
+  { "customerId": "C001", "customerName": "Alice Johnson", "transactionId": "T002", "amount": 75.25, "date": "2024-11-02" },
+  { "customerId": "C001", "customerName": "Alice Johnson", "transactionId": "T003", "amount": 200.00, "date": "2024-12-10" },
+
+  { "customerId": "C002", "customerName": "Bob Smith", "transactionId": "T004", "amount": 45.99, "date": "2024-10-20" },
+  { "customerId": "C002", "customerName": "Bob Smith", "transactionId": "T005", "amount": 155.75, "date": "2024-11-15" },
+
+  { "customerId": "C003", "customerName": "Carol Davis", "transactionId": "T006", "amount": 89.99, "date": "2024-10-05" },
+  { "customerId": "C003", "customerName": "Carol Davis", "transactionId": "T007", "amount": 310.50, "date": "2024-11-22" },
+
+  { "customerId": "C004", "customerName": "David Wilson", "transactionId": "T008", "amount": 25.00, "date": "2024-12-01" },
+  { "customerId": "C004", "customerName": "David Wilson", "transactionId": "T009", "amount": 99.99, "date": "2024-12-15" },
+
+  { "customerId": "C005", "customerName": "Emma Brown", "transactionId": "T010", "amount": 175.25, "date": "2024-10-30" },
+  { "customerId": "C005", "customerName": "Emma Brown", "transactionId": "T011", "amount": 67.50, "date": "2024-11-08" },
+
+  { "customerId": "C006", "customerName": "Frank Miller", "transactionId": "T012", "amount": 250.00, "date": "2024-12-05" },
+
+  { "customerId": "C007", "customerName": "Grace Lee", "transactionId": "T013", "amount": 130.75, "date": "2024-10-12" },
+
+  { "customerId": "C008", "customerName": "Henry Taylor", "transactionId": "T014", "amount": 85.00, "date": "2024-11-28" },
+
+  { "customerId": "C009", "customerName": "Ivy Chen", "transactionId": "T015", "amount": 195.99, "date": "2024-12-20" },
+
+  { "customerId": "C010", "customerName": "Jack Anderson", "transactionId": "T016", "amount": 55.25, "date": "2024-10-08" },
+
+  { "customerId": "C011", "customerName": "Karen White", "transactionId": "T017", "amount": 275.50, "date": "2024-11-12" },
+
+  { "customerId": "C012", "customerName": "Leo Garcia", "transactionId": "T018", "amount": 42.99, "date": "2024-12-03" },
+
+  { "customerId": "C013", "customerName": "Mia Rodriguez", "transactionId": "T019", "amount": 165.75, "date": "2024-10-25" },
+
+  { "customerId": "C014", "customerName": "Noah Thompson", "transactionId": "T020", "amount": 95.50, "date": "2024-11-18" },
+
+  { "customerId": "C015", "customerName": "Olivia Martinez", "transactionId": "T021", "amount": 220.25, "date": "2024-12-12" }
+]
