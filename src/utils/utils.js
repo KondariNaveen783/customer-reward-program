@@ -32,7 +32,6 @@ export function formatDate(dateStr) {
   });
 }
 
-
 export function processTransactionData(transactions, monthFilter, yearFilter) {
   logger.info(`Processing ${transactions.length} transactions with filters: month=${monthFilter}, year=${yearFilter}`);
 

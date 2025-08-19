@@ -37,25 +37,7 @@ This application calculates reward points **per transaction, per month, and tota
 
 ## 📂 Project Structure
 
-```
-customer-reward-program/
-├── public/
-│   └── data/
-│       └── transactions.json        # Mock transaction data
-├── src/
-│   ├── constants.js                 # Reusable constants
-│   ├── logger.js                    # Pino logging setup
-│   ├── api.js                       # Simulated API calls
-│   ├── rewardsCalculator.js         # Reward calculation logic
-│   ├── ui.js                        # DOM rendering & updates
-│   ├── index.js                     # Main entry script
-│   └── css/
-│       └── styles.css               # Styling
-├── tests/
-│   └── rewardsCalculator.test.js    # Jest unit tests
-├── index.html                        # Main app page
-├── package.json                      # Dependencies
-└── README.md                         # Documentation
+![customer-reward-program\images\folder-structure 2025-08-19 201936.png]
 
 ```
 

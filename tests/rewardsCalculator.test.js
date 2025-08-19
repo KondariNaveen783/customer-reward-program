@@ -1,4 +1,4 @@
-import { calculateRewardPoints } from "../utils/utils.js";
+import { calculateRewardPoints } from '../src/utils/utils.js';
 
 describe("Reward Points Calculation", () => {
   test("Purchase under $50 gives 0 points", () => {
