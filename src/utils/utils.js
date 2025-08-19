@@ -1,4 +1,4 @@
-import { REWARDS_CONFIG } from "../components/constants.js";
+import { REWARDS_CONFIG } from "./constants.js";
 import logger from "../components/logger.js";
 
 export function calculateRewardPoints(amount) {

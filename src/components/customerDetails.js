@@ -1,4 +1,4 @@
-import { MONTHS, REWARDS_CONFIG } from "./constants.js";
+import { MONTHS, REWARDS_CONFIG } from "../utils/constants.js";
 import { formatCurrency, formatDate } from "../utils/utils.js";
 import logger from "./logger.js";
 
@@ -120,7 +120,7 @@ export function renderTransactions(elements, selectedCustomer, selectedMonth) {
   if (selectedMonth) {
     const [year, month] = selectedMonth.split("-").map(Number);
     transactionsToShow = selectedCustomer.transactions.filter(
-      t => t.year === year && t.month === month
+      transaction => transaction.year === year && transaction.month === month
     );
   }
 
@@ -141,12 +141,12 @@ export function renderTransactions(elements, selectedCustomer, selectedMonth) {
         </tr>
       </thead>
       <tbody>
-        ${transactionsToShow.map(t => `
+        ${transactionsToShow.map(transaction => `
           <tr>
-            <td>${formatDate(t.date)}</td>
-            <td>${t.transactionId}</td>
-            <td>${formatCurrency(t.amount)}</td>
-            <td>${t.points}</td>
+            <td>${formatDate(transaction.date)}</td>
+            <td>${transaction.transactionId}</td>
+            <td>${formatCurrency(transaction.amount)}</td>
+            <td>${transaction.points}</td>
           </tr>
         `).join("")}
       </tbody>

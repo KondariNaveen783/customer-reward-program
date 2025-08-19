@@ -2,8 +2,8 @@ import { fetchTransactionData } from "./fetchTransactionData.js";
 import { processTransactionData } from "../utils/utils.js";
 import { showLoading, showError, showDashboard, renderCustomerList, renderCustomerDetails } from "./customerDetails.js";
 import logger from "./logger.js";
-import { MONTHS } from "./constants.js";
-import { UI_TEXTS } from "./constants.js";
+import { MONTHS } from "../utils/constants.js";
+import { UI_TEXTS } from "../utils/constants.js";
 
 document.addEventListener("DOMContentLoaded", () => {
   document.getElementById("appTitle").textContent = UI_TEXTS.APP_TITLE;
