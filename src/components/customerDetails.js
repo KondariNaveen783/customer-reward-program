@@ -1,5 +1,5 @@
 import { MONTHS, REWARDS_CONFIG } from "./constants.js";
-import { formatCurrency, formatDate } from "./utils.js";
+import { formatCurrency, formatDate } from "../utils/utils.js";
 import logger from "./logger.js";
 
 export function showLoading(elements) {

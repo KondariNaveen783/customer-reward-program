@@ -1,5 +1,5 @@
-import { REWARDS_CONFIG } from "./constants.js";
-import logger from "./logger.js";
+import { REWARDS_CONFIG } from "../components/constants.js";
+import logger from "../components/logger.js";
 
 export function calculateRewardPoints(amount) {
   if (typeof amount !== "number" || amount < 0) {
@@ -32,31 +32,56 @@ export function formatDate(dateStr) {
   });
 }
 
-// ✅ Add this function (it was in your inline script originally)
+
 export function processTransactionData(transactions, monthFilter, yearFilter) {
   logger.info(`Processing ${transactions.length} transactions with filters: month=${monthFilter}, year=${yearFilter}`);
 
   const customers = new Map();
   const now = new Date();
 
-  transactions.forEach(transaction => {
+
+  const year = parseInt(yearFilter, 10);
+
+  let filteredTransactions = transactions;
+
+  if (monthFilter === "last3") {
+    
+    let endMonth;
+    if (year === now.getFullYear()) {
+      endMonth = now.getMonth(); 
+    } else {
+      endMonth = 11; 
+    }
+    const last3Months = [endMonth, endMonth - 1, endMonth - 2].map(m => (m + 12) % 12);
+
+    filteredTransactions = transactions.filter(tx => {
+      const txDate = new Date(tx.date);
+      return (
+        txDate.getFullYear() === year &&
+        last3Months.includes(txDate.getMonth())
+      );
+    });
+  } else if (monthFilter !== "" && monthFilter !== undefined && monthFilter !== null) {
+    // Filter by specific month and year
+    filteredTransactions = transactions.filter(tx => {
+      const txDate = new Date(tx.date);
+      return (
+        txDate.getFullYear() === year &&
+        txDate.getMonth() === parseInt(monthFilter, 10)
+      );
+    });
+  } else if (yearFilter) {
+    // Only filter by year
+    filteredTransactions = transactions.filter(tx => {
+      const txDate = new Date(tx.date);
+      return txDate.getFullYear() === year;
+    });
+  }
+
+  filteredTransactions.forEach(transaction => {
     const transactionDate = new Date(transaction.date);
     const transactionMonth = transactionDate.getMonth();
     const transactionYear = transactionDate.getFullYear();
-
-    // Apply filters
-    let includeTransaction = true;
-    if (monthFilter === "") {
-      // last 3 months
-      const threeMonthsAgo = new Date(now.getFullYear(), now.getMonth() - 2, 1);
-      includeTransaction = transactionDate >= threeMonthsAgo;
-    } else {
-      includeTransaction =
-        transactionMonth === parseInt(monthFilter) &&
-        transactionYear === parseInt(yearFilter);
-    }
-
-    if (!includeTransaction) return;
 
     if (!customers.has(transaction.customerId)) {
       customers.set(transaction.customerId, {

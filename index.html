@@ -4,55 +4,53 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Customer Rewards Program</title>
-    <meta name="description"
-        content="Track customer transactions, calculate monthly reward points, and view total rewards in this interactive Customer Rewards Program dashboard." />
+    <title id="pageTitle"></title>
+    <meta name="description" id="pageDescription" content="" />
     <link rel="stylesheet" href="./src/css/styles.css" />
 </head>
 
 <body>
     <div class="container">
         <div class="header">
-            <h1>Customer Rewards Program</h1>
-            <p>Track and calculate customer reward points based on purchases</p>
+            <h1 id="appTitle"></h1>
+            <p id="appDescription"></p>
         </div>
 
         <div class="controls">
             <div class="controls-row">
                 <div class="form-group">
-                    <label for="monthFilter">Month:</label>
+                    <label for="monthFilter" id="monthLabel"></label>
                     <select id="monthFilter"></select>
                 </div>
                 <div class="form-group">
-                    <label for="yearFilter">Year:</label>
+                    <label for="yearFilter" id="yearLabel"></label>
                     <select id="yearFilter"></select>
                 </div>
-                <button class="btn btn-primary" aria-label="Filter transactions" id="applyFilters">Apply
-                    Filters</button>
+                <button class="btn btn-primary" aria-label="Filter transactions" id="applyFilters"></button>
             </div>
         </div>
 
         <div id="loading" class="loading" aria-live="polite" style="display:none;">
-            <p>Loading customer data...</p>
+            <p id="loadingMessage"></p>
         </div>
         <div id="error" class="error" role="alert" aria-live="assertive" style="display:none;"></div>
 
         <div id="dashboard" class="dashboard" style="display:none;">
             <div class="customer-list" role="region" aria-labelledby="customerListHeading">
-                <h3 id="customerListHeading">Customers</h3>
+                <h3 id="customerListHeading"></h3>
                 <div id="customerList"></div>
                 <div id="customerPagination" class="pagination"></div>
             </div>
             <div class="rewards-display" role="region" aria-labelledby="rewardsHeading">
                 <div id="customerHeader" class="customer-header"></div>
                 <div id="totalPoints" class="total-points"></div>
-                <h3 id="rewardsHeading" class="sr-only">Reward Points Summary</h3>
+                <h3 id="rewardsHeading" class="sr-only"></h3>
                 <div id="monthlySummary" class="monthly-summary"></div>
                 <div id="transactions" class="transactions"></div>
             </div>
         </div>
     </div>
-    <script type="module" src="src/js/index.js" defer></script>
+    <script type="module" src="src/components/index.js" defer></script>
 </body>
 
 </html>

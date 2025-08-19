@@ -89,21 +89,57 @@ customer-reward-program/
 
 ## ⚙️ Setup & Run
 
-1. Clone repo:
+### 1. Install Required Tools
+- Download & install Node.js → [https://nodejs.org](https://nodejs.org)  
+- Download & install Visual Studio Code (VS Code) → [https://code.visualstudio.com](https://code.visualstudio.com)  
 
-   ```bash
-   git clone https://github.com/KondariNaveen783/customer-reward-program.git
-   cd customer-reward-program
-   ```
-2. Install dependencies:
+### 2. Get the Project Code
+- Open VS Code  
+- Press `Ctrl + Shift + P` (Windows/Linux) or `Cmd + Shift + P` (Mac) to open the Command Palette  
+- Type `Git: Clone` and select it  
+- Paste this repository URL:  
 
-   ```bash
-   npm install
-   ```
-3. Run locally:
+  ```bash
+  https://github.com/KondariNaveen783/customer-reward-program.git
+````
 
-   * Open `index.html` in a browser **OR**
-   * Use a local server (e.g. VSCode Live Server).
+* Choose a folder and open the project in VS Code
+
+### 3. Install Project Dependencies
+
+Open a terminal in VS Code (Top Menu → Terminal → New Terminal) and run:
+
+```bash
+npm install
+```
+
+### 4. Install Live Server Extension
+
+* In VS Code, go to the Extensions panel (left sidebar → square icon).
+* Search for **Live Server** (by Ritwick Dey).
+* Click **Install**.
+
+### 5. Open the Application
+
+**Option A: Go Live Button**
+
+* At the bottom-right corner of VS Code, click the **“Go Live”** button.
+* Your browser will automatically open and show the application.
+
+**Option B: Command Palette**
+
+* Press `Ctrl + Shift + P` (Windows/Linux) or `Cmd + Shift + P` (Mac)
+* Type `Live Server: Open with Live Server`
+* Select the file `index.html`
+
+**Option C: Manual Open (without Live Server)**
+
+* Open the project folder
+* Double-click `index.html` to open it in your browser
+* (Refresh manually after changes)
+
+```
+
 4. Run tests:
 
    ```bash

@@ -1,37 +1,226 @@
 [
-  { "customerId": "C001", "customerName": "Alice Johnson", "transactionId": "T001", "amount": 120.50, "date": "2024-10-15" },
-  { "customerId": "C001", "customerName": "Alice Johnson", "transactionId": "T002", "amount": 75.25, "date": "2024-11-02" },
-  { "customerId": "C001", "customerName": "Alice Johnson", "transactionId": "T003", "amount": 200.00, "date": "2024-12-10" },
+  { "customerId": "C001", "customerName": "Alice Johnson", "transactionId": "T001", "amount": 120.50, "date": "2023-03-18" },
+  { "customerId": "C001", "customerName": "Alice Johnson", "transactionId": "T002", "amount": 200.75, "date": "2023-04-14" },
+  { "customerId": "C001", "customerName": "Alice Johnson", "transactionId": "T003", "amount": 90.00, "date": "2023-05-22" },
+  { "customerId": "C001", "customerName": "Alice Johnson", "transactionId": "T004", "amount": 170.00, "date": "2023-06-05" },
 
-  { "customerId": "C002", "customerName": "Bob Smith", "transactionId": "T004", "amount": 45.99, "date": "2024-10-20" },
-  { "customerId": "C002", "customerName": "Bob Smith", "transactionId": "T005", "amount": 155.75, "date": "2024-11-15" },
+  { "customerId": "C001", "customerName": "Alice Johnson", "transactionId": "T017", "amount": 130.25, "date": "2024-03-18" },
+  { "customerId": "C001", "customerName": "Alice Johnson", "transactionId": "T018", "amount": 205.50, "date": "2024-04-14" },
+  { "customerId": "C001", "customerName": "Alice Johnson", "transactionId": "T019", "amount": 95.00, "date": "2024-05-22" },
+  { "customerId": "C001", "customerName": "Alice Johnson", "transactionId": "T020", "amount": 175.00, "date": "2024-06-05" },
 
-  { "customerId": "C003", "customerName": "Carol Davis", "transactionId": "T006", "amount": 89.99, "date": "2024-10-05" },
-  { "customerId": "C003", "customerName": "Carol Davis", "transactionId": "T007", "amount": 310.50, "date": "2024-11-22" },
+  { "customerId": "C001", "customerName": "Alice Johnson", "transactionId": "T037", "amount": 145.25, "date": "2025-03-18" },
+  { "customerId": "C001", "customerName": "Alice Johnson", "transactionId": "T038", "amount": 210.75, "date": "2025-04-14" },
+  { "customerId": "C001", "customerName": "Alice Johnson", "transactionId": "T039", "amount": 98.50, "date": "2025-05-22" },
+  { "customerId": "C001", "customerName": "Alice Johnson", "transactionId": "T040", "amount": 180.00, "date": "2025-06-05" },
 
-  { "customerId": "C004", "customerName": "David Wilson", "transactionId": "T008", "amount": 25.00, "date": "2024-12-01" },
-  { "customerId": "C004", "customerName": "David Wilson", "transactionId": "T009", "amount": 99.99, "date": "2024-12-15" },
+  { "customerId": "C002", "customerName": "Bob Smith", "transactionId": "T005", "amount": 110.00, "date": "2023-03-21" },
+  { "customerId": "C002", "customerName": "Bob Smith", "transactionId": "T006", "amount": 250.00, "date": "2023-04-09" },
+  { "customerId": "C002", "customerName": "Bob Smith", "transactionId": "T007", "amount": 70.00, "date": "2023-05-28" },
+  { "customerId": "C002", "customerName": "Bob Smith", "transactionId": "T008", "amount": 185.00, "date": "2023-06-15" },
 
-  { "customerId": "C005", "customerName": "Emma Brown", "transactionId": "T010", "amount": 175.25, "date": "2024-10-30" },
-  { "customerId": "C005", "customerName": "Emma Brown", "transactionId": "T011", "amount": 67.50, "date": "2024-11-08" },
+  { "customerId": "C002", "customerName": "Bob Smith", "transactionId": "T021", "amount": 120.50, "date": "2024-03-21" },
+  { "customerId": "C002", "customerName": "Bob Smith", "transactionId": "T022", "amount": 255.25, "date": "2024-04-09" },
+  { "customerId": "C002", "customerName": "Bob Smith", "transactionId": "T023", "amount": 72.99, "date": "2024-05-28" },
+  { "customerId": "C002", "customerName": "Bob Smith", "transactionId": "T024", "amount": 190.00, "date": "2024-06-15" },
 
-  { "customerId": "C006", "customerName": "Frank Miller", "transactionId": "T012", "amount": 250.00, "date": "2024-12-05" },
+  { "customerId": "C002", "customerName": "Bob Smith", "transactionId": "T041", "amount": 135.50, "date": "2025-03-21" },
+  { "customerId": "C002", "customerName": "Bob Smith", "transactionId": "T042", "amount": 260.25, "date": "2025-04-09" },
+  { "customerId": "C002", "customerName": "Bob Smith", "transactionId": "T043", "amount": 75.99, "date": "2025-05-28" },
+  { "customerId": "C002", "customerName": "Bob Smith", "transactionId": "T044", "amount": 195.00, "date": "2025-06-15" },
 
-  { "customerId": "C007", "customerName": "Grace Lee", "transactionId": "T013", "amount": 130.75, "date": "2024-10-12" },
+  { "customerId": "C003", "customerName": "Carol Davis", "transactionId": "T009", "amount": 200.00, "date": "2023-03-12" },
+  { "customerId": "C003", "customerName": "Carol Davis", "transactionId": "T010", "amount": 140.00, "date": "2023-04-26" },
+  { "customerId": "C003", "customerName": "Carol Davis", "transactionId": "T011", "amount": 300.00, "date": "2023-05-19" },
+  { "customerId": "C003", "customerName": "Carol Davis", "transactionId": "T012", "amount": 100.00, "date": "2023-06-07" },
 
-  { "customerId": "C008", "customerName": "Henry Taylor", "transactionId": "T014", "amount": 85.00, "date": "2024-11-28" },
+  { "customerId": "C003", "customerName": "Carol Davis", "transactionId": "T025", "amount": 210.75, "date": "2024-03-12" },
+  { "customerId": "C003", "customerName": "Carol Davis", "transactionId": "T026", "amount": 145.25, "date": "2024-04-26" },
+  { "customerId": "C003", "customerName": "Carol Davis", "transactionId": "T027", "amount": 305.00, "date": "2024-05-19" },
+  { "customerId": "C003", "customerName": "Carol Davis", "transactionId": "T028", "amount": 102.50, "date": "2024-06-07" },
 
-  { "customerId": "C009", "customerName": "Ivy Chen", "transactionId": "T015", "amount": 195.99, "date": "2024-12-20" },
+  { "customerId": "C003", "customerName": "Carol Davis", "transactionId": "T045", "amount": 220.75, "date": "2025-03-12" },
+  { "customerId": "C003", "customerName": "Carol Davis", "transactionId": "T046", "amount": 150.25, "date": "2025-04-26" },
+  { "customerId": "C003", "customerName": "Carol Davis", "transactionId": "T047", "amount": 310.00, "date": "2025-05-19" },
+  { "customerId": "C003", "customerName": "Carol Davis", "transactionId": "T048", "amount": 105.50, "date": "2025-06-07" },
 
-  { "customerId": "C010", "customerName": "Jack Anderson", "transactionId": "T016", "amount": 55.25, "date": "2024-10-08" },
+  { "customerId": "C004", "customerName": "David Evans", "transactionId": "T013", "amount": 160.00, "date": "2023-03-25" },
+  { "customerId": "C004", "customerName": "David Evans", "transactionId": "T014", "amount": 180.00, "date": "2023-04-30" },
+  { "customerId": "C004", "customerName": "David Evans", "transactionId": "T015", "amount": 220.00, "date": "2023-05-15" },
+  { "customerId": "C004", "customerName": "David Evans", "transactionId": "T016", "amount": 130.00, "date": "2023-06-20" },
 
-  { "customerId": "C011", "customerName": "Karen White", "transactionId": "T017", "amount": 275.50, "date": "2024-11-12" },
+  { "customerId": "C004", "customerName": "David Evans", "transactionId": "T029", "amount": 165.00, "date": "2024-03-25" },
+  { "customerId": "C004", "customerName": "David Evans", "transactionId": "T030", "amount": 185.00, "date": "2024-04-30" },
+  { "customerId": "C004", "customerName": "David Evans", "transactionId": "T031", "amount": 225.00, "date": "2024-05-15" },
+  { "customerId": "C004", "customerName": "David Evans", "transactionId": "T032", "amount": 135.00, "date": "2024-06-20" },
 
-  { "customerId": "C012", "customerName": "Leo Garcia", "transactionId": "T018", "amount": 42.99, "date": "2024-12-03" },
+  { "customerId": "C004", "customerName": "David Evans", "transactionId": "T049", "amount": 170.00, "date": "2025-03-25" },
+  { "customerId": "C004", "customerName": "David Evans", "transactionId": "T050", "amount": 190.00, "date": "2025-04-30" },
+  { "customerId": "C004", "customerName": "David Evans", "transactionId": "T051", "amount": 230.00, "date": "2025-05-15" },
+  { "customerId": "C004", "customerName": "David Evans", "transactionId": "T052", "amount": 140.00, "date": "2025-06-20" },
 
-  { "customerId": "C013", "customerName": "Mia Rodriguez", "transactionId": "T019", "amount": 165.75, "date": "2024-10-25" },
+  { "customerId": "C005", "customerName": "Emma Foster", "transactionId": "T053", "amount": 150.00, "date": "2023-03-10" },
+  { "customerId": "C005", "customerName": "Emma Foster", "transactionId": "T054", "amount": 175.00, "date": "2023-04-18" },
+  { "customerId": "C005", "customerName": "Emma Foster", "transactionId": "T055", "amount": 210.00, "date": "2023-05-25" },
+  { "customerId": "C005", "customerName": "Emma Foster", "transactionId": "T056", "amount": 120.00, "date": "2023-06-30" },
 
-  { "customerId": "C014", "customerName": "Noah Thompson", "transactionId": "T020", "amount": 95.50, "date": "2024-11-18" },
+  { "customerId": "C005", "customerName": "Emma Foster", "transactionId": "T057", "amount": 155.00, "date": "2024-03-10" },
+  { "customerId": "C005", "customerName": "Emma Foster", "transactionId": "T058", "amount": 180.00, "date": "2024-04-18" },
+  { "customerId": "C005", "customerName": "Emma Foster", "transactionId": "T059", "amount": 215.00, "date": "2024-05-25" },
+  { "customerId": "C005", "customerName": "Emma Foster", "transactionId": "T060", "amount": 125.00, "date": "2024-06-30" },
 
-  { "customerId": "C015", "customerName": "Olivia Martinez", "transactionId": "T021", "amount": 220.25, "date": "2024-12-12" }
+  { "customerId": "C005", "customerName": "Emma Foster", "transactionId": "T061", "amount": 160.00, "date": "2025-03-10" },
+  { "customerId": "C005", "customerName": "Emma Foster", "transactionId": "T062", "amount": 185.00, "date": "2025-04-18" },
+  { "customerId": "C005", "customerName": "Emma Foster", "transactionId": "T063", "amount": 220.00, "date": "2025-05-25" },
+  { "customerId": "C005", "customerName": "Emma Foster", "transactionId": "T064", "amount": 130.00, "date": "2025-06-30" },
+
+  { "customerId": "C006", "customerName": "Frank Green", "transactionId": "T065", "amount": 140.00, "date": "2023-03-05" },
+  { "customerId": "C006", "customerName": "Frank Green", "transactionId": "T066", "amount": 160.00, "date": "2023-04-12" },
+  { "customerId": "C006", "customerName": "Frank Green", "transactionId": "T067", "amount": 200.00, "date": "2023-05-20" },
+  { "customerId": "C006", "customerName": "Frank Green", "transactionId": "T068", "amount": 110.00, "date": "2023-06-25" },
+
+  { "customerId": "C006", "customerName": "Frank Green", "transactionId": "T069", "amount": 145.00, "date": "2024-03-05" },
+  { "customerId": "C006", "customerName": "Frank Green", "transactionId": "T070", "amount": 165.00, "date": "2024-04-12" },
+  { "customerId": "C006", "customerName": "Frank Green", "transactionId": "T071", "amount": 205.00, "date": "2024-05-20" },
+  { "customerId": "C006", "customerName": "Frank Green", "transactionId": "T072", "amount": 115.00, "date": "2024-06-25" },
+
+  { "customerId": "C006", "customerName": "Frank Green", "transactionId": "T073", "amount": 150.00, "date": "2025-03-05" },
+  { "customerId": "C006", "customerName": "Frank Green", "transactionId": "T074", "amount": 170.00, "date": "2025-04-12" },
+  { "customerId": "C006", "customerName": "Frank Green", "transactionId": "T075", "amount": 210.00, "date": "2025-05-20" },
+  { "customerId": "C006", "customerName": "Frank Green", "transactionId": "T076", "amount": 120.00, "date": "2025-06-25" },
+
+  { "customerId": "C007", "customerName": "Grace Harris", "transactionId": "T077", "amount": 130.00, "date": "2023-03-15" },
+  { "customerId": "C007", "customerName": "Grace Harris", "transactionId": "T078", "amount": 155.00, "date": "2023-04-22" },
+  { "customerId": "C007", "customerName": "Grace Harris", "transactionId": "T079", "amount": 195.00, "date": "2023-05-30" },
+  { "customerId": "C007", "customerName": "Grace Harris", "transactionId": "T080", "amount": 105.00, "date": "2023-06-10" },
+
+  { "customerId": "C007", "customerName": "Grace Harris", "transactionId": "T081", "amount": 135.00, "date": "2024-03-15" },
+  { "customerId": "C007", "customerName": "Grace Harris", "transactionId": "T082", "amount": 160.00, "date": "2024-04-22" },
+  { "customerId": "C007", "customerName": "Grace Harris", "transactionId": "T083", "amount": 200.00, "date": "2024-05-30" },
+  { "customerId": "C007", "customerName": "Grace Harris", "transactionId": "T084", "amount": 110.00, "date": "2024-06-10" },
+
+  { "customerId": "C007", "customerName": "Grace Harris", "transactionId": "T085", "amount": 140.00, "date": "2025-03-15" },
+  { "customerId": "C007", "customerName": "Grace Harris", "transactionId": "T086", "amount": 165.00, "date": "2025-04-22" },
+  { "customerId": "C007", "customerName": "Grace Harris", "transactionId": "T087", "amount": 205.00, "date": "2025-05-30" },
+  { "customerId": "C007", "customerName": "Grace Harris", "transactionId": "T088", "amount": 115.00, "date": "2025-06-10" },
+
+  { "customerId": "C008", "customerName": "Henry Irving", "transactionId": "T089", "amount": 125.00, "date": "2023-03-28" },
+  { "customerId": "C008", "customerName": "Henry Irving", "transactionId": "T090", "amount": 150.00, "date": "2023-04-15" },
+  { "customerId": "C008", "customerName": "Henry Irving", "transactionId": "T091", "amount": 185.00, "date": "2023-05-12" },
+  { "customerId": "C008", "customerName": "Henry Irving", "transactionId": "T092", "amount": 100.00, "date": "2023-06-18" },
+
+  { "customerId": "C008", "customerName": "Henry Irving", "transactionId": "T093", "amount": 130.00, "date": "2024-03-28" },
+  { "customerId": "C008", "customerName": "Henry Irving", "transactionId": "T094", "amount": 155.00, "date": "2024-04-15" },
+  { "customerId": "C008", "customerName": "Henry Irving", "transactionId": "T095", "amount": 190.00, "date": "2024-05-12" },
+  { "customerId": "C008", "customerName": "Henry Irving", "transactionId": "T096", "amount": 105.00, "date": "2024-06-18" },
+
+  { "customerId": "C008", "customerName": "Henry Irving", "transactionId": "T097", "amount": 135.00, "date": "2025-03-28" },
+  { "customerId": "C008", "customerName": "Henry Irving", "transactionId": "T098", "amount": 160.00, "date": "2025-04-15" },
+  { "customerId": "C008", "customerName": "Henry Irving", "transactionId": "T099", "amount": 195.00, "date": "2025-05-12" },
+  { "customerId": "C008", "customerName": "Henry Irving", "transactionId": "T100", "amount": 110.00, "date": "2025-06-18" },
+
+  { "customerId": "C009", "customerName": "Ivy Johnson", "transactionId": "T101", "amount": 170.00, "date": "2023-03-08" },
+  { "customerId": "C009", "customerName": "Ivy Johnson", "transactionId": "T102", "amount": 190.00, "date": "2023-04-19" },
+  { "customerId": "C009", "customerName": "Ivy Johnson", "transactionId": "T103", "amount": 230.00, "date": "2023-05-27" },
+  { "customerId": "C009", "customerName": "Ivy Johnson", "transactionId": "T104", "amount": 140.00, "date": "2023-06-22" },
+
+  { "customerId": "C009", "customerName": "Ivy Johnson", "transactionId": "T105", "amount": 175.00, "date": "2024-03-08" },
+  { "customerId": "C009", "customerName": "Ivy Johnson", "transactionId": "T106", "amount": 195.00, "date": "2024-04-19" },
+  { "customerId": "C009", "customerName": "Ivy Johnson", "transactionId": "T107", "amount": 235.00, "date": "2024-05-27" },
+  { "customerId": "C009", "customerName": "Ivy Johnson", "transactionId": "T108", "amount": 145.00, "date": "2024-06-22" },
+
+  { "customerId": "C009", "customerName": "Ivy Johnson", "transactionId": "T109", "amount": 180.00, "date": "2025-03-08" },
+  { "customerId": "C009", "customerName": "Ivy Johnson", "transactionId": "T110", "amount": 200.00, "date": "2025-04-19" },
+  { "customerId": "C009", "customerName": "Ivy Johnson", "transactionId": "T111", "amount": 240.00, "date": "2025-05-27" },
+  { "customerId": "C009", "customerName": "Ivy Johnson", "transactionId": "T112", "amount": 150.00, "date": "2025-06-22" },
+
+  { "customerId": "C010", "customerName": "Jack King", "transactionId": "T113", "amount": 155.00, "date": "2023-03-13" },
+  { "customerId": "C010", "customerName": "Jack King", "transactionId": "T114", "amount": 175.00, "date": "2023-04-25" },
+  { "customerId": "C010", "customerName": "Jack King", "transactionId": "T115", "amount": 215.00, "date": "2023-05-18" },
+  { "customerId": "C010", "customerName": "Jack King", "transactionId": "T116", "amount": 125.00, "date": "2023-06-28" },
+
+  { "customerId": "C010", "customerName": "Jack King", "transactionId": "T117", "amount": 160.00, "date": "2024-03-13" },
+  { "customerId": "C010", "customerName": "Jack King", "transactionId": "T118", "amount": 180.00, "date": "2024-04-25" },
+  { "customerId": "C010", "customerName": "Jack King", "transactionId": "T119", "amount": 220.00, "date": "2024-05-18" },
+  { "customerId": "C010", "customerName": "Jack King", "transactionId": "T120", "amount": 130.00, "date": "2024-06-28" },
+
+  { "customerId": "C010", "customerName": "Jack King", "transactionId": "T121", "amount": 165.00, "date": "2025-03-13" },
+  { "customerId": "C010", "customerName": "Jack King", "transactionId": "T122", "amount": 185.00, "date": "2025-04-25" },
+  { "customerId": "C010", "customerName": "Jack King", "transactionId": "T123", "amount": 225.00, "date": "2025-05-18" },
+  { "customerId": "C010", "customerName": "Jack King", "transactionId": "T124", "amount": 135.00, "date": "2025-06-28" },
+
+  { "customerId": "C011", "customerName": "Karen Lee", "transactionId": "T125", "amount": 145.00, "date": "2023-03-17" },
+  { "customerId": "C011", "customerName": "Karen Lee", "transactionId": "T126", "amount": 165.00, "date": "2023-04-27" },
+  { "customerId": "C011", "customerName": "Karen Lee", "transactionId": "T127", "amount": 205.00, "date": "2023-05-21" },
+  { "customerId": "C011", "customerName": "Karen Lee", "transactionId": "T128", "amount": 115.00, "date": "2023-06-29" },
+
+  { "customerId": "C011", "customerName": "Karen Lee", "transactionId": "T129", "amount": 150.00, "date": "2024-03-17" },
+  { "customerId": "C011", "customerName": "Karen Lee", "transactionId": "T130", "amount": 170.00, "date": "2024-04-27" },
+  { "customerId": "C011", "customerName": "Karen Lee", "transactionId": "T131", "amount": 210.00, "date": "2024-05-21" },
+  { "customerId": "C011", "customerName": "Karen Lee", "transactionId": "T132", "amount": 120.00, "date": "2024-06-29" },
+
+  { "customerId": "C011", "customerName": "Karen Lee", "transactionId": "T133", "amount": 155.00, "date": "2025-03-17" },
+  { "customerId": "C011", "customerName": "Karen Lee", "transactionId": "T134", "amount": 175.00, "date": "2025-04-27" },
+  { "customerId": "C011", "customerName": "Karen Lee", "transactionId": "T135", "amount": 215.00, "date": "2025-05-21" },
+  { "customerId": "C011", "customerName": "Karen Lee", "transactionId": "T136", "amount": 125.00, "date": "2025-06-29" },
+
+  { "customerId": "C012", "customerName": "Liam Miller", "transactionId": "T137", "amount": 135.00, "date": "2023-03-22" },
+  { "customerId": "C012", "customerName": "Liam Miller", "transactionId": "T138", "amount": 155.00, "date": "2023-04-29" },
+  { "customerId": "C012", "customerName": "Liam Miller", "transactionId": "T139", "amount": 195.00, "date": "2023-05-23" },
+  { "customerId": "C012", "customerName": "Liam Miller", "transactionId": "T140", "amount": 105.00, "date": "2023-06-27" },
+
+  { "customerId": "C012", "customerName": "Liam Miller", "transactionId": "T141", "amount": 140.00, "date": "2024-03-22" },
+  { "customerId": "C012", "customerName": "Liam Miller", "transactionId": "T142", "amount": 160.00, "date": "2024-04-29" },
+  { "customerId": "C012", "customerName": "Liam Miller", "transactionId": "T143", "amount": 200.00, "date": "2024-05-23" },
+  { "customerId": "C012", "customerName": "Liam Miller", "transactionId": "T144", "amount": 110.00, "date": "2024-06-27" },
+
+  { "customerId": "C012", "customerName": "Liam Miller", "transactionId": "T145", "amount": 145.00, "date": "2025-03-22" },
+  { "customerId": "C012", "customerName": "Liam Miller", "transactionId": "T146", "amount": 165.00, "date": "2025-04-29" },
+  { "customerId": "C012", "customerName": "Liam Miller", "transactionId": "T147", "amount": 205.00, "date": "2025-05-23" },
+  { "customerId": "C012", "customerName": "Liam Miller", "transactionId": "T148", "amount": 115.00, "date": "2025-06-27" },
+
+  { "customerId": "C013", "customerName": "Mia Nelson", "transactionId": "T149", "amount": 180.00, "date": "2023-03-19" },
+  { "customerId": "C013", "customerName": "Mia Nelson", "transactionId": "T150", "amount": 200.00, "date": "2023-04-23" },
+  { "customerId": "C013", "customerName": "Mia Nelson", "transactionId": "T151", "amount": 240.00, "date": "2023-05-29" },
+  { "customerId": "C013", "customerName": "Mia Nelson", "transactionId": "T152", "amount": 150.00, "date": "2023-06-12" },
+
+  { "customerId": "C013", "customerName": "Mia Nelson", "transactionId": "T153", "amount": 185.00, "date": "2024-03-19" },
+  { "customerId": "C013", "customerName": "Mia Nelson", "transactionId": "T154", "amount": 205.00, "date": "2024-04-23" },
+  { "customerId": "C013", "customerName": "Mia Nelson", "transactionId": "T155", "amount": 245.00, "date": "2024-05-29" },
+  { "customerId": "C013", "customerName": "Mia Nelson", "transactionId": "T156", "amount": 155.00, "date": "2024-06-12" },
+
+  { "customerId": "C013", "customerName": "Mia Nelson", "transactionId": "T157", "amount": 190.00, "date": "2025-03-19" },
+  { "customerId": "C013", "customerName": "Mia Nelson", "transactionId": "T158", "amount": 210.00, "date": "2025-04-23" },
+  { "customerId": "C013", "customerName": "Mia Nelson", "transactionId": "T159", "amount": 250.00, "date": "2025-05-29" },
+  { "customerId": "C013", "customerName": "Mia Nelson", "transactionId": "T160", "amount": 160.00, "date": "2025-06-12" },
+
+  { "customerId": "C014", "customerName": "Noah Owens", "transactionId": "T161", "amount": 165.00, "date": "2023-03-27" },
+  { "customerId": "C014", "customerName": "Noah Owens", "transactionId": "T162", "amount": 185.00, "date": "2023-04-16" },
+  { "customerId": "C014", "customerName": "Noah Owens", "transactionId": "T163", "amount": 225.00, "date": "2023-05-24" },
+  { "customerId": "C014", "customerName": "Noah Owens", "transactionId": "T164", "amount": 135.00, "date": "2023-06-14" },
+
+  { "customerId": "C014", "customerName": "Noah Owens", "transactionId": "T165", "amount": 170.00, "date": "2024-03-27" },
+  { "customerId": "C014", "customerName": "Noah Owens", "transactionId": "T166", "amount": 190.00, "date": "2024-04-16" },
+  { "customerId": "C014", "customerName": "Noah Owens", "transactionId": "T167", "amount": 230.00, "date": "2024-05-24" },
+  { "customerId": "C014", "customerName": "Noah Owens", "transactionId": "T168", "amount": 140.00, "date": "2024-06-14" },
+
+  { "customerId": "C014", "customerName": "Noah Owens", "transactionId": "T169", "amount": 175.00, "date": "2025-03-27" },
+  { "customerId": "C014", "customerName": "Noah Owens", "transactionId": "T170", "amount": 195.00, "date": "2025-04-16" },
+  { "customerId": "C014", "customerName": "Noah Owens", "transactionId": "T171", "amount": 235.00, "date": "2025-05-24" },
+  { "customerId": "C014", "customerName": "Noah Owens", "transactionId": "T172", "amount": 145.00, "date": "2025-06-14" },
+
+  { "customerId": "C015", "customerName": "Olivia Parker", "transactionId": "T173", "amount": 175.00, "date": "2023-03-30" },
+  { "customerId": "C015", "customerName": "Olivia Parker", "transactionId": "T174", "amount": 195.00, "date": "2023-04-20" },
+  { "customerId": "C015", "customerName": "Olivia Parker", "transactionId": "T175", "amount": 235.00, "date": "2023-05-31" },
+  { "customerId": "C015", "customerName": "Olivia Parker", "transactionId": "T176", "amount": 145.00, "date": "2023-06-17" },
+
+  { "customerId": "C015", "customerName": "Olivia Parker", "transactionId": "T177", "amount": 180.00, "date": "2024-03-30" },
+  { "customerId": "C015", "customerName": "Olivia Parker", "transactionId": "T178", "amount": 200.00, "date": "2024-04-20" },
+  { "customerId": "C015", "customerName": "Olivia Parker", "transactionId": "T179", "amount": 240.00, "date": "2024-05-31" },
+  { "customerId": "C015", "customerName": "Olivia Parker", "transactionId": "T180", "amount": 150.00, "date": "2024-06-17" },
+
+  { "customerId": "C015", "customerName": "Olivia Parker", "transactionId": "T181", "amount": 185.00, "date": "2025-03-30" },
+  { "customerId": "C015", "customerName": "Olivia Parker", "transactionId": "T182", "amount": 205.00, "date": "2025-04-20" },
+  { "customerId": "C015", "customerName": "Olivia Parker", "transactionId": "T183", "amount": 245.00, "date": "2025-05-31" },
+  { "customerId": "C015", "customerName": "Olivia Parker", "transactionId": "T184", "amount": 155.00, "date": "2025-06-17" }
 ]

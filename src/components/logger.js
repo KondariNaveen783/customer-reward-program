@@ -1,4 +1,3 @@
-// src/js/logger.js
 const logger = {
   info: (message) => console.log(`[INFO] ${new Date().toISOString()} - ${message}`),
   warn: (message) => console.warn(`[WARN] ${new Date().toISOString()} - ${message}`),

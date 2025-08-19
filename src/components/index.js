@@ -1,8 +1,21 @@
-import { fetchTransactionData } from "./api.js";
-import { processTransactionData } from "./utils.js";
-import { showLoading, showError, showDashboard, renderCustomerList, renderCustomerDetails } from "./ui.js";
+import { fetchTransactionData } from "./fetchTransactionData.js";
+import { processTransactionData } from "../utils/utils.js";
+import { showLoading, showError, showDashboard, renderCustomerList, renderCustomerDetails } from "./customerDetails.js";
 import logger from "./logger.js";
 import { MONTHS } from "./constants.js";
+import { UI_TEXTS } from "./constants.js";
+
+document.addEventListener("DOMContentLoaded", () => {
+  document.getElementById("appTitle").textContent = UI_TEXTS.APP_TITLE;
+  document.getElementById("appDescription").textContent = UI_TEXTS.APP_DESCRIPTION;
+  document.getElementById("applyFilters").textContent = UI_TEXTS.FILTER_BUTTON;
+  document.getElementById("loadingMessage").textContent = UI_TEXTS.LOADING_MESSAGE;
+  document.getElementById("customerListHeading").textContent = UI_TEXTS.CUSTOMER_LIST_HEADING;
+  document.getElementById("rewardsHeading").textContent = UI_TEXTS.REWARDS_HEADING;
+  document.getElementById("monthLabel").textContent = UI_TEXTS.MONTH_LABEL;
+  document.getElementById("yearLabel").textContent = UI_TEXTS.YEAR_LABEL;
+});
+
 
 // UI state
 let currentCustomers = [];
@@ -30,8 +43,8 @@ async function loadData() {
   try {
     showLoading(elements);
     const transactions = await fetchTransactionData();
-    const monthFilter = elements.monthFilter.value;
-    const yearFilter = elements.yearFilter.value;
+    let monthFilter = elements?.monthFilter.value;
+    const yearFilter = elements?.yearFilter.value;
 
     currentCustomers = processTransactionData(transactions, monthFilter, yearFilter);
 
@@ -99,20 +112,19 @@ function populateFilters(elements) {
     const option = document.createElement("option");
     option.value = index;
     option.textContent = month;
-    elements.monthFilter.appendChild(option);
+    elements?.monthFilter.appendChild(option);
   });
 
-  // Populate year filter (default 2025 → 2021)
   const currentYear = new Date().getFullYear();
   elements.yearFilter.innerHTML = "";
   for (let y = currentYear; y >= currentYear - 4; y--) {
     const option = document.createElement("option");
     option.value = y;
     option.textContent = y;
-    elements.yearFilter.appendChild(option);
+    elements?.yearFilter.appendChild(option);
   }
   elements.yearFilter.value = currentYear; // default select current year
 }
-// Init
+
 populateFilters(elements);
 loadData();
