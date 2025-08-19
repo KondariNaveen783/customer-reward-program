@@ -119,8 +119,8 @@ export function renderTransactions(elements, selectedCustomer, selectedMonth) {
 
   if (selectedMonth) {
     const [year, month] = selectedMonth.split("-").map(Number);
-    transactionsToShow = selectedCustomer.transactions.filter(
-      transaction => transaction.year === year && transaction.month === month
+    transactionsToShow = selectedCustomer?.transactions.filter(
+      transaction => transaction?.year === year && transaction?.month === month
     );
   }
 
@@ -143,10 +143,10 @@ export function renderTransactions(elements, selectedCustomer, selectedMonth) {
       <tbody>
         ${transactionsToShow.map(transaction => `
           <tr>
-            <td>${formatDate(transaction.date)}</td>
-            <td>${transaction.transactionId}</td>
-            <td>${formatCurrency(transaction.amount)}</td>
-            <td>${transaction.points}</td>
+            <td>${formatDate(transaction?.date)}</td>
+            <td>${transaction?.transactionId}</td>
+            <td>${formatCurrency(transaction?.amount)}</td>
+            <td>${transaction?.points}</td>
           </tr>
         `).join("")}
       </tbody>
