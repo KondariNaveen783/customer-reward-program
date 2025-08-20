@@ -34,11 +34,9 @@ This application calculates reward points **per transaction, per month, and tota
 * **Clean UI with CSS**.
 
 ---
-
-## 📂 Project Structure
-
-![customer-reward-program\images\folder-structure 2025-08-19 201936.png]
-
+![Customer Rewards Dashboard](desktop-view-month.png)
+![Pagination](desktop-view-pagination.png)
+![TransactionSummary](Desktop-view.png)
 ```
 
 ---
