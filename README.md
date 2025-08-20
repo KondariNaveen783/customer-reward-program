@@ -34,9 +34,12 @@ This application calculates reward points **per transaction, per month, and tota
 * **Clean UI with CSS**.
 
 ---
+## 📸 Screenshots
+
 ![Customer Rewards Dashboard](desktop-view-month.png)
 ![Pagination](desktop-view-pagination.png)
 ![TransactionSummary](Desktop-view.png)
+![TestCoverage](test.png)
 ```
 
 ---
@@ -136,22 +139,10 @@ npm install
 * Handles fractional & whole numbers.
 
 ---
-## 📸 Screenshots
-
-<img width="1868" height="929" alt="image" src="https://github.com/user-attachments/assets/b4406a0d-500e-4e13-b74b-403e36d97e80" />
-<img width="1289" height="929" alt="image" src="https://github.com/user-attachments/assets/5b617e4d-71cb-407d-97f3-6697bc895865" />
-<img width="1462" height="894" alt="image" src="https://github.com/user-attachments/assets/0726769a-728a-40ae-bb78-87e00fb78ee1" />
-<img width="278" height="593" alt="image" src="https://github.com/user-attachments/assets/207926c8-f865-4dd3-b5e6-a3d69c7efe0a" />
-<img width="860" height="591" alt="image" src="https://github.com/user-attachments/assets/e5ddd853-da40-4325-9144-31ebe5998ac5" />
 
 ## 🛠️ Logging
 
 This project uses **Pino** for logging.
-
-## Logger Screenshots
-
-<img width="875" height="939" alt="image" src="https://github.com/user-attachments/assets/125ec115-ffde-41bd-b649-f169310344d4" />
-
 
 Example usage:
 

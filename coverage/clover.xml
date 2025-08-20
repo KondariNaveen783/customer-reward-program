@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1755613937538" clover="3.2.0">
-  <project timestamp="1755613937539" name="All files">
+<coverage generated="1755665990622" clover="3.2.0">
+  <project timestamp="1755665990622" name="All files">
     <metrics statements="55" coveredstatements="15" conditionals="27" coveredconditionals="8" methods="12" coveredmethods="2" elements="94" coveredelements="25" complexity="0" loc="55" ncloc="55" packages="2" files="3" classes="3"/>
     <package name="components">
       <metrics statements="4" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="1"/>
-      <file name="logger.js" path="C:\Users\Praveen Kumar\OneDrive\Desktop\naveen\customer-reward-program\src\components\logger.js">
+      <file name="logger.js" path="C:\Users\Bhara\OneDrive\Desktop\Project\customer-reward-program\src\components\logger.js">
         <metrics statements="4" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="0" type="stmt"/>
@@ -14,13 +14,13 @@
     </package>
     <package name="utils">
       <metrics statements="51" coveredstatements="13" conditionals="27" coveredconditionals="8" methods="9" coveredmethods="1"/>
-      <file name="constants.js" path="C:\Users\Praveen Kumar\OneDrive\Desktop\naveen\customer-reward-program\src\utils\constants.js">
+      <file name="constants.js" path="C:\Users\Bhara\OneDrive\Desktop\Project\customer-reward-program\src\utils\constants.js">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="9" count="1" type="stmt"/>
         <line num="14" count="1" type="stmt"/>
       </file>
-      <file name="utils.js" path="C:\Users\Praveen Kumar\OneDrive\Desktop\naveen\customer-reward-program\src\utils\utils.js">
+      <file name="utils.js" path="C:\Users\Bhara\OneDrive\Desktop\Project\customer-reward-program\src\utils\utils.js">
         <metrics statements="48" coveredstatements="10" conditionals="27" coveredconditionals="8" methods="9" coveredmethods="1"/>
         <line num="5" count="10" type="cond" truecount="4" falsecount="0"/>
         <line num="6" count="2" type="stmt"/>
@@ -34,42 +34,42 @@
         <line num="17" count="8" type="stmt"/>
         <line num="21" count="0" type="stmt"/>
         <line num="28" count="0" type="stmt"/>
-        <line num="37" count="0" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
         <line num="39" count="0" type="stmt"/>
-        <line num="40" count="0" type="stmt"/>
-        <line num="43" count="0" type="stmt"/>
-        <line num="45" count="0" type="stmt"/>
-        <line num="47" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="50" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="51" count="0" type="stmt"/>
-        <line num="53" count="0" type="stmt"/>
-        <line num="55" count="0" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="44" count="0" type="stmt"/>
+        <line num="46" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="49" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="50" count="0" type="stmt"/>
+        <line num="52" count="0" type="stmt"/>
+        <line num="54" count="0" type="stmt"/>
+        <line num="56" count="0" type="stmt"/>
         <line num="57" count="0" type="stmt"/>
         <line num="58" count="0" type="stmt"/>
-        <line num="59" count="0" type="stmt"/>
-        <line num="64" count="0" type="cond" truecount="0" falsecount="5"/>
+        <line num="63" count="0" type="cond" truecount="0" falsecount="5"/>
+        <line num="65" count="0" type="stmt"/>
         <line num="66" count="0" type="stmt"/>
         <line num="67" count="0" type="stmt"/>
-        <line num="68" count="0" type="stmt"/>
-        <line num="73" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="72" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="74" count="0" type="stmt"/>
         <line num="75" count="0" type="stmt"/>
         <line num="76" count="0" type="stmt"/>
-        <line num="77" count="0" type="stmt"/>
+        <line num="80" count="0" type="stmt"/>
         <line num="81" count="0" type="stmt"/>
         <line num="82" count="0" type="stmt"/>
         <line num="83" count="0" type="stmt"/>
-        <line num="84" count="0" type="stmt"/>
-        <line num="86" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="87" count="0" type="stmt"/>
+        <line num="85" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="86" count="0" type="stmt"/>
+        <line num="95" count="0" type="stmt"/>
         <line num="96" count="0" type="stmt"/>
-        <line num="97" count="0" type="stmt"/>
-        <line num="99" count="0" type="stmt"/>
-        <line num="106" count="0" type="stmt"/>
-        <line num="108" count="0" type="stmt"/>
-        <line num="109" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="98" count="0" type="stmt"/>
+        <line num="105" count="0" type="stmt"/>
+        <line num="107" count="0" type="stmt"/>
+        <line num="108" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="109" count="0" type="stmt"/>
         <line num="110" count="0" type="stmt"/>
-        <line num="111" count="0" type="stmt"/>
-        <line num="114" count="0" type="stmt"/>
+        <line num="113" count="0" type="stmt"/>
       </file>
     </package>
   </project>
